@@ -23,8 +23,18 @@ public class Product {
     private String productId;
     private String name;
     private BigDecimal price;
+    private String description;
+    
 
-    public String getName() {
+    public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getName() {
         return name;
     }
 
